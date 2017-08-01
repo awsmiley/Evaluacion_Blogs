@@ -1,0 +1,168 @@
+body{
+	background-color: #020219;
+	margin: 0 50px 0 50px;
+}
+
+.header{
+	background-color: #496577;
+	width: 100%;
+	margin: 0;
+}
+
+.logo{
+	margin-top: 1em;
+	margin-left: 5em;
+	margin-bottom: 0em;
+	width: 45%;
+}
+
+.header a{
+	color: #f4fbff;
+}
+
+.header a:hover{
+	color: #02a3ff;
+}
+
+img.social{
+  width: 45px;
+  height: 45px;
+}
+
+header .redes-sociales{
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.nav {
+    width: 100%;
+    background-color: #030344;
+    border: none;
+    margin: 0;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 18px 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+	padding: 18px 25px;
+	background: #4a416b;
+	opacity: 0.9;
+	color: white;
+}
+
+.container-white {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}
+
+/*Estilo para imágenes de post*/
+.imgpost{
+	width: 90%;
+	margin-top: 3vw;
+	margin-bottom: 1vw;
+}
+
+.blog-post {
+    padding: 30px;
+}
+
+.blog-post h2 {
+    font-size: 30px;
+}
+
+.blog-post p {
+    font-size: 16px;
+}
+
+.blog-post-comment {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+
+.inner-addon {
+    position: relative;
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.blog-rightside {
+    padding: 30px;
+}
+
+.list-group-item:hover{
+	background-color: #4a416b;
+}
+
+a .list-group-item{
+	color: grey;
+}
+
+.list-group-item:hover{
+	color: #ffffff;
+}
+
+.list-group a:hover{
+	text-decoration: none;
+}
+
+
+@media (max-width:767px){
+	.icono-pr{
+		margin-top: 3em;
+	}
+
+	.imgpost{
+		width: 50%;
+		margin-left: 25%;
+		margin-bottom: 2vw;
+	}
+}
+
+
+@media (min-width:768px) and (max-width:841px){
+	#navigation li{
+		padding: 0 2.5vw;
+	}
+
+	.imgpost{
+		width: 50%;
+		margin-left: 25%;
+		margin-bottom: 2vw;
+	}
+}
+
+
+@media (min-width:842px) and (max-width:1060px){
+	#navigation li{
+		padding: 0 3vw;
+	}
+
+	.imgpost{
+		width: 70%;
+		margin-left: 25%;
+		margin-bottom: 2vw;
+	}
+}
