@@ -1,0 +1,89 @@
+body{
+  background-image: url("../img/fondo.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.container{
+  background-color: rgba(255,255,255,0.6);
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+}
+
+header{
+  margin-bottom: 20px;
+}
+
+header .row{
+  height: 200px;
+  border-bottom: 1.5px solid #ddd;
+}
+
+.titulo{
+  font-size: 35px;
+  color: black;
+}
+
+.slogan{
+  font-size: 20px;
+  color: dark-grey;
+}
+
+aside{
+  padding: 15px;
+  background-color: rgba(221, 225, 244, 0.8);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+}
+
+.date {
+  color: blue;
+}
+
+.image {
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
+
+.fav {
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+
+@media all and (min-width:640px){
+.no-padding-right{
+  padding-right: 0;
+}
+}
+
+article{
+  background-color: rgba(255,255,255,0.5);
+  padding: 6px 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+}
+
+.comments{
+  margin:0 !important;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+
+.avatar{
+  max-width: 50px !important;
+}
